@@ -78,6 +78,7 @@ upload
 # built artefacts
 autobuilder_libraries
 autobuilder_packages
+*/last-failure
 
 # package script folders - ignore the default ones, exclude from ignore new ones we add
 browser/
@@ -98,5 +99,6 @@ system/
 terminal/
 toolsrc/
 
-!libraries/popt/*
-!libraries/libsmb2/*
+!/libraries/popt/*
+!/libraries/libsmb2/*
+libraries/libsmb2/last-failure
