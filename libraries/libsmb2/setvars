@@ -1,0 +1,29 @@
+AB_URL=https://github.com/sahlberg/libsmb2/archive/v3.0.0.tar.gz
+
+AB_INSTALL=yes
+
+ab_make() {
+  cmake -DCMAKE_TOOLCHAIN_FILE=$H/toolchain-riscos.cmake \
+        -DRISCOS=1 \
+        -DBUILD_SHARED_LIBS=OFF \
+        -DTHREADSAFE=OFF \
+        -DBUILD_CLAR=OFF \
+        -DCMAKE_INSTALL_PREFIX=$GCCSDK_INSTALL_ENV \
+        -DENABLE_EXAMPLES=ON \
+        .
+  $AB_MAKE
+  mkdir -p $D/lib
+  cp -av $S/libsmb2.a $D/lib
+  cp -av $S/include $D
+}
+
+ab_package() {
+  ab_create_command_app smb2examples Apps/Network
+  ab_add_commands $S/src/*$AB_EXEEXT
+
+  cp -av $S/README $A
+  cp -av $S/COPYING $A
+  #cp -av $S/NEWS $S/ChangeLog $A
+
+  $AB_HOME/add-riscpkg -unixlib
+}

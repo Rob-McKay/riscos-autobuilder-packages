@@ -1,0 +1,509 @@
+Autobuilder: Building package: popt
+Autobuilder: Detected 2 CPUs: set AB_CPUS to use more or fewer (eg in case build breaks)
+Autobuilder: Fetching source for popt
+2020-07-14 16:46:05 URL:https://codeload.github.com/rpm-software-management/popt/zip/popt-1.18-release [206706] -> "popt-1.18-release.zip" [1]
+Archive:  popt-1.18-release.zip
+7e6478831e93fda9419ef576f9819f49ba06f972
+   creating: popt-popt-1.18-release/
+  inflating: popt-popt-1.18-release/.gitignore  
+ extracting: popt-popt-1.18-release/.popt  
+  inflating: popt-popt-1.18-release/CHANGES  
+  inflating: popt-popt-1.18-release/COPYING  
+  inflating: popt-popt-1.18-release/Doxyfile.in  
+  inflating: popt-popt-1.18-release/Makefile.am  
+  inflating: popt-popt-1.18-release/README  
+ extracting: popt-popt-1.18-release/autogen.sh  
+   creating: popt-popt-1.18-release/ci/
+  inflating: popt-popt-1.18-release/ci/Dockerfile  
+  inflating: popt-popt-1.18-release/configure.ac  
+   creating: popt-popt-1.18-release/po/
+  inflating: popt-popt-1.18-release/po/LINGUAS  
+  inflating: popt-popt-1.18-release/po/Makevars  
+  inflating: popt-popt-1.18-release/po/POTFILES.in  
+  inflating: popt-popt-1.18-release/po/cs.po  
+  inflating: popt-popt-1.18-release/po/da.po  
+  inflating: popt-popt-1.18-release/po/de.po  
+  inflating: popt-popt-1.18-release/po/eo.po  
+  inflating: popt-popt-1.18-release/po/es.po  
+  inflating: popt-popt-1.18-release/po/fi.po  
+  inflating: popt-popt-1.18-release/po/fr.po  
+  inflating: popt-popt-1.18-release/po/ga.po  
+  inflating: popt-popt-1.18-release/po/gl.po  
+  inflating: popt-popt-1.18-release/po/hu.po  
+  inflating: popt-popt-1.18-release/po/id.po  
+  inflating: popt-popt-1.18-release/po/is.po  
+  inflating: popt-popt-1.18-release/po/it.po  
+  inflating: popt-popt-1.18-release/po/ja.po  
+  inflating: popt-popt-1.18-release/po/ko.po  
+  inflating: popt-popt-1.18-release/po/lv.po  
+  inflating: popt-popt-1.18-release/po/nb.po  
+  inflating: popt-popt-1.18-release/po/nl.po  
+  inflating: popt-popt-1.18-release/po/pl.po  
+  inflating: popt-popt-1.18-release/po/popt.pot  
+  inflating: popt-popt-1.18-release/po/pt.po  
+  inflating: popt-popt-1.18-release/po/ro.po  
+  inflating: popt-popt-1.18-release/po/ru.po  
+  inflating: popt-popt-1.18-release/po/sk.po  
+  inflating: popt-popt-1.18-release/po/sl.po  
+  inflating: popt-popt-1.18-release/po/sv.po  
+  inflating: popt-popt-1.18-release/po/th.po  
+  inflating: popt-popt-1.18-release/po/tr.po  
+  inflating: popt-popt-1.18-release/po/uk.po  
+  inflating: popt-popt-1.18-release/po/vi.po  
+  inflating: popt-popt-1.18-release/po/wa.po  
+  inflating: popt-popt-1.18-release/po/zh_CN.po  
+  inflating: popt-popt-1.18-release/po/zh_TW.po  
+  inflating: popt-popt-1.18-release/popt.3  
+  inflating: popt-popt-1.18-release/popt.pc.in  
+  inflating: popt-popt-1.18-release/popt.pdf  
+   creating: popt-popt-1.18-release/src/
+  inflating: popt-popt-1.18-release/src/Makefile.am  
+  inflating: popt-popt-1.18-release/src/libpopt.vers  
+  inflating: popt-popt-1.18-release/src/lookup3.c  
+  inflating: popt-popt-1.18-release/src/popt.c  
+  inflating: popt-popt-1.18-release/src/popt.h  
+  inflating: popt-popt-1.18-release/src/poptconfig.c  
+  inflating: popt-popt-1.18-release/src/popthelp.c  
+  inflating: popt-popt-1.18-release/src/poptint.c  
+  inflating: popt-popt-1.18-release/src/poptint.h  
+  inflating: popt-popt-1.18-release/src/poptparse.c  
+  inflating: popt-popt-1.18-release/src/system.h  
+   creating: popt-popt-1.18-release/tests/
+  inflating: popt-popt-1.18-release/tests/Makefile.am  
+  inflating: popt-popt-1.18-release/tests/tdict.c  
+  inflating: popt-popt-1.18-release/tests/test-poptrc.in  
+  inflating: popt-popt-1.18-release/tests/test1.c  
+  inflating: popt-popt-1.18-release/tests/test2.c  
+   creating: popt-popt-1.18-release/tests/test3-data/
+  inflating: popt-popt-1.18-release/tests/test3-data/01.answer  
+  inflating: popt-popt-1.18-release/tests/test3-data/01.input  
+ extracting: popt-popt-1.18-release/tests/test3-data/02.answer  
+  inflating: popt-popt-1.18-release/tests/test3-data/02.input  
+  inflating: popt-popt-1.18-release/tests/test3-data/03.answer  
+  inflating: popt-popt-1.18-release/tests/test3-data/03.input  
+  inflating: popt-popt-1.18-release/tests/test3.c  
+  inflating: popt-popt-1.18-release/tests/testit.sh  
+Autobuilder: source directory is /home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release
+Autobuilder: Calling setvars
+Autobuilder: Running make command: /home/rob/projects/gccsdk/env/ro-make
+autoreconf: Entering directory `.'
+autoreconf: running: autopoint
+Copying file ABOUT-NLS
+Creating directory build-aux
+Copying file build-aux/config.rpath
+Creating directory m4
+Copying file m4/codeset.m4
+Copying file m4/fcntl-o.m4
+Copying file m4/gettext.m4
+Copying file m4/glibc2.m4
+Copying file m4/glibc21.m4
+Copying file m4/iconv.m4
+Copying file m4/intdiv0.m4
+Copying file m4/intl.m4
+Copying file m4/intldir.m4
+Copying file m4/intlmacosx.m4
+Copying file m4/intmax.m4
+Copying file m4/inttypes-pri.m4
+Copying file m4/inttypes_h.m4
+Copying file m4/lcmessage.m4
+Copying file m4/lib-ld.m4
+Copying file m4/lib-link.m4
+Copying file m4/lib-prefix.m4
+Copying file m4/lock.m4
+Copying file m4/longlong.m4
+Copying file m4/nls.m4
+Copying file m4/po.m4
+Copying file m4/printf-posix.m4
+Copying file m4/progtest.m4
+Copying file m4/size_max.m4
+Copying file m4/stdint_h.m4
+Copying file m4/threadlib.m4
+Copying file m4/uintmax_t.m4
+Copying file m4/visibility.m4
+Copying file m4/wchar_t.m4
+Copying file m4/wint_t.m4
+Copying file m4/xsize.m4
+Copying file po/Makefile.in.in
+Copying file po/Makevars.template
+Copying file po/Rules-quot
+Copying file po/boldquot.sed
+Copying file po/en@boldquot.header
+Copying file po/en@quot.header
+Copying file po/insert-header.sin
+Copying file po/quot.sed
+Copying file po/remove-potcdate.sin
+autoreconf: running: aclocal -I m4
+autoreconf: configure.ac: tracing
+Use of uninitialized value $args[0] in split at /usr/bin/autoreconf line 493, <GEN2> line 8.
+autoreconf: running: libtoolize --copy
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'build-aux'.
+libtoolize: copying file 'build-aux/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+autoreconf: running: /usr/bin/autoconf
+autoreconf: running: /usr/bin/autoheader
+autoreconf: running: automake --add-missing --copy --no-force
+configure.ac:14: installing 'build-aux/ar-lib'
+configure.ac:11: installing 'build-aux/compile'
+configure.ac:17: installing 'build-aux/config.guess'
+configure.ac:17: installing 'build-aux/config.sub'
+configure.ac:9: installing 'build-aux/install-sh'
+configure.ac:9: installing 'build-aux/missing'
+src/Makefile.am: installing 'build-aux/depcomp'
+parallel-tests: installing 'build-aux/test-driver'
+autoreconf: Leaving directory `.'
+RISC OS: Adding E1F filetype for ./configure
+RISC OS: Adding filetype for binary tests for ./configure
+RISC OS: Failed to patch configure to support libtool.
+RISC OS: This may be because configure was regenerated by autoreconf.
+RISC OS: Calling perl script to patch configure instead.
+RISC OS: Setting libtool library paths for ./configure
+RISC OS: Adding X Paths
+RISC OS: Enabling shared libraries
+RISC OS: Enabling static libraries
+checking for a BSD-compatible install... /home/rob/projects/gccsdk/env/ro-install
+checking whether build environment is sane... yes
+checking for arm-unknown-riscos-strip... /home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-strip
+checking for a thread-safe mkdir -p... /home/rob/projects/gccsdk/env/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports the include directive... yes (GNU style)
+checking for arm-unknown-riscos-gcc... /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... ,e1f
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc accepts -g... (cached) no
+checking for /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc option to accept ISO C89... none needed
+checking whether /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc understands -c and -o together... yes
+checking dependency style of /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc... gcc3
+checking for /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc option to accept ISO C99... -std=gnu99
+checking for /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -std=gnu99 option to accept ISO Standard C... (cached) -std=gnu99
+checking for arm-unknown-riscos-gcc... (cached) /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc accepts -g... (cached) no
+checking for /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc option to accept ISO C89... (cached) none needed
+checking whether /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc understands -c and -o together... (cached) yes
+checking dependency style of /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc... (cached) gcc3
+checking how to run the C preprocessor... /home/rob/projects/gccsdk/env/arm-unknown-riscos-cpp
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for arm-unknown-riscos-ar... /home/rob/projects/gccsdk/env/ro-ar
+checking the archiver (/home/rob/projects/gccsdk/env/ro-ar) interface... ar
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... arm-unknown-riscos
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc... /home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-ld
+checking if the linker (/home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-nm
+checking the name lister (/home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to arm-unknown-riscos format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-ld option to reload object files... -r
+checking for arm-unknown-riscos-objdump... arm-unknown-riscos-objdump
+checking how to recognize dependent libraries... pass_all
+checking for arm-unknown-riscos-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for arm-unknown-riscos-ar... (cached) /home/rob/projects/gccsdk/env/ro-ar
+checking for archiver @FILE support... @
+checking for arm-unknown-riscos-strip... (cached) /home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-strip
+checking for arm-unknown-riscos-ranlib... /home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-ranlib
+checking command to parse /home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-nm output from /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for arm-unknown-riscos-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... (cached) yes
+checking for objdir... .libs
+checking if /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc supports -fno-rtti -fno-exceptions... no
+checking for /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc option to produce PIC... -fPIC -DPIC
+checking if /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc PIC flag -fPIC -DPIC works... yes
+checking if /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc static flag -static works... yes
+checking if /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc supports -c -o file.o... yes
+checking if /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc supports -c -o file.o... (cached) yes
+checking whether the /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc linker (/home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-ld) supports shared libraries... yes
+checking dynamic linker characteristics... arm-unknown-riscos-gcc: error: programs:: No such file or directory
+arm-unknown-riscos-gcc: error: =/home/rob/projects/gccsdk/cross/libexec/gcc/arm-unknown-riscos/4.7.4/:/home/rob/projects/gccsdk/cross/libexec/gcc/arm-unknown-riscos/4.7.4/:/home/rob/projects/gccsdk/cross/libexec/gcc/arm-unknown-riscos/:/home/rob/projects/gccsdk/cross/lib/gcc/arm-unknown-riscos/4.7.4/:/home/rob/projects/gccsdk/cross/lib/gcc/arm-unknown-riscos/:/home/rob/projects/gccsdk/cross/lib/gcc/arm-unknown-riscos/4.7.4/../../../../arm-unknown-riscos/bin/arm-unknown-riscos/4.7.4/:/home/rob/projects/gccsdk/cross/lib/gcc/arm-unknown-riscos/4.7.4/../../../../arm-unknown-riscos/bin/: No such file or directory
+arm-unknown-riscos-gcc: error: libraries:: No such file or directory
+arm-unknown-riscos-gcc: error: =/home/rob/projects/gccsdk/cross/lib/gcc/arm-unknown-riscos/4.7.4/:/home/rob/projects/gccsdk/cross/lib/gcc/arm-unknown-riscos/4.7.4/../../../../arm-unknown-riscos/lib/arm-unknown-riscos/4.7.4/:/home/rob/projects/gccsdk/cross/lib/gcc/arm-unknown-riscos/4.7.4/../../../../arm-unknown-riscos/lib/: No such file or directory
+riscos ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking fnmatch.h usability... yes
+checking fnmatch.h presence... yes
+checking for fnmatch.h... yes
+checking glob.h usability... yes
+checking glob.h presence... yes
+checking for glob.h... yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking libintl.h usability... no
+checking libintl.h presence... no
+checking for libintl.h... no
+checking mcheck.h usability... no
+checking mcheck.h presence... no
+checking for mcheck.h... no
+checking stdalign.h usability... yes
+checking stdalign.h presence... yes
+checking for stdalign.h... yes
+checking for library containing setreuid... no
+checking for getuid... yes
+checking for geteuid... yes
+checking for iconv... yes
+checking for mtrace... no
+checking for secure_getenv... no
+checking for __secure_getenv... no
+checking for setreuid... no
+checking for setuid... yes
+checking for stpcpy... yes
+checking for strerror... (cached) yes
+checking for vasprintf... yes
+checking for srandom... yes
+checking whether NLS is requested... no
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc... /home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-ld
+checking if the linker (/home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking whether to use NLS... no
+checking for iconv... yes
+checking for working iconv... guessing yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating po/Makefile.in
+config.status: creating Doxyfile
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating popt.pc
+config.status: creating tests/test-poptrc
+config.status: creating tests/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+make  all-recursive
+make[1]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+Making all in src
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.. -DPOPT_SYSCONFDIR="\"/home/rob/projects/gccsdk/env/etc\""   -O3 -MT popt.lo -MD -MP -MF .deps/popt.Tpo -c -o popt.lo popt.c
+/bin/sh ../libtool  --tag=CC   --mode=compile /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.. -DPOPT_SYSCONFDIR="\"/home/rob/projects/gccsdk/env/etc\""   -O3 -MT poptparse.lo -MD -MP -MF .deps/poptparse.Tpo -c -o poptparse.lo poptparse.c
+libtool: compile:  /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -DPOPT_SYSCONFDIR=\"/home/rob/projects/gccsdk/env/etc\" -O3 -MT popt.lo -MD -MP -MF .deps/popt.Tpo -c popt.c -o popt.o
+libtool: compile:  /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -DPOPT_SYSCONFDIR=\"/home/rob/projects/gccsdk/env/etc\" -O3 -MT poptparse.lo -MD -MP -MF .deps/poptparse.Tpo -c poptparse.c -o poptparse.o
+mv -f .deps/poptparse.Tpo .deps/poptparse.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.. -DPOPT_SYSCONFDIR="\"/home/rob/projects/gccsdk/env/etc\""   -O3 -MT poptconfig.lo -MD -MP -MF .deps/poptconfig.Tpo -c -o poptconfig.lo poptconfig.c
+libtool: compile:  /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -DPOPT_SYSCONFDIR=\"/home/rob/projects/gccsdk/env/etc\" -O3 -MT poptconfig.lo -MD -MP -MF .deps/poptconfig.Tpo -c poptconfig.c -o poptconfig.o
+mv -f .deps/poptconfig.Tpo .deps/poptconfig.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.. -DPOPT_SYSCONFDIR="\"/home/rob/projects/gccsdk/env/etc\""   -O3 -MT popthelp.lo -MD -MP -MF .deps/popthelp.Tpo -c -o popthelp.lo popthelp.c
+mv -f .deps/popt.Tpo .deps/popt.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.. -DPOPT_SYSCONFDIR="\"/home/rob/projects/gccsdk/env/etc\""   -O3 -MT poptint.lo -MD -MP -MF .deps/poptint.Tpo -c -o poptint.lo poptint.c
+libtool: compile:  /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -DPOPT_SYSCONFDIR=\"/home/rob/projects/gccsdk/env/etc\" -O3 -MT popthelp.lo -MD -MP -MF .deps/popthelp.Tpo -c popthelp.c -o popthelp.o
+libtool: compile:  /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -DPOPT_SYSCONFDIR=\"/home/rob/projects/gccsdk/env/etc\" -O3 -MT poptint.lo -MD -MP -MF .deps/poptint.Tpo -c poptint.c -o poptint.o
+mv -f .deps/poptint.Tpo .deps/poptint.Plo
+mv -f .deps/popthelp.Tpo .deps/popthelp.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc  -O3 -no-undefined -version-info 0:1:0   -o libpopt.la -rpath /home/rob/projects/gccsdk/env/lib popt.lo poptparse.lo poptconfig.lo popthelp.lo poptint.lo  
+libtool: link: /home/rob/projects/gccsdk/env/ro-ar cru .libs/libpopt.a  popt.o poptparse.o poptconfig.o popthelp.o poptint.o
+Detected libtool convenience library creation - creating static object version also
+libtool: link: /home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-ranlib .libs/libpopt.a
+libtool: link: ( cd ".libs" && rm -f "libpopt.la" && ln -s "../libpopt.la" "libpopt.la" )
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src'
+Making all in po
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/po'
+Making all in tests
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/tests'
+/home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../src   -O3 -MT test1.o -MD -MP -MF .deps/test1.Tpo -c -o test1.o test1.c
+/home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../src   -O3 -MT test2.o -MD -MP -MF .deps/test2.Tpo -c -o test2.o test2.c
+mv -f .deps/test2.Tpo .deps/test2.Po
+/home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../src   -O3 -MT tdict.o -MD -MP -MF .deps/tdict.Tpo -c -o tdict.o tdict.c
+mv -f .deps/test1.Tpo .deps/test1.Po
+/bin/sh ../libtool  --tag=CC   --mode=link /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc  -O3   -o test1,e1f test1.o ../src/libpopt.la 
+mv -f .deps/tdict.Tpo .deps/tdict.Po
+/bin/sh ../libtool  --tag=CC   --mode=link /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc  -O3   -o test2,e1f test2.o ../src/libpopt.la 
+libtool: link: /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -O3 -o test1,e1f test1.o  ../src/.libs/libpopt.a
+libtool: link: /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -O3 -o test2,e1f test2.o  ../src/.libs/libpopt.a
+/bin/sh ../libtool  --tag=CC   --mode=link /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc  -O3   -o tdict,e1f tdict.o ../src/libpopt.la 
+libtool: link: /home/rob/projects/gccsdk/env/arm-unknown-riscos-gcc -O3 -o tdict,e1f tdict.o  ../src/.libs/libpopt.a
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/tests'
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+make[1]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+'/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src/.libs/libpopt.a' -> '/home/rob/projects/gccsdk/build/popt/package/lib/libpopt.a'
+'/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src/popt.h' -> '/home/rob/projects/gccsdk/build/popt/package/popt.h'
+Autobuilder: Running make install
+make  install-recursive
+make[1]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+Making install in src
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src'
+make[3]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src'
+ /home/rob/projects/gccsdk/env/mkdir -p '/home/rob/projects/gccsdk/env/lib'
+ /home/rob/projects/gccsdk/env/mkdir -p '/home/rob/projects/gccsdk/env/include'
+ /bin/sh ../libtool   --mode=install /home/rob/projects/gccsdk/env/ro-install   libpopt.la '/home/rob/projects/gccsdk/env/lib'
+ /home/rob/projects/gccsdk/env/ro-install -m 644 popt.h '/home/rob/projects/gccsdk/env/include'
+libtool: install: /home/rob/projects/gccsdk/env/ro-install .libs/libpopt.lai /home/rob/projects/gccsdk/env/lib/libpopt.la
+libtool: install: /home/rob/projects/gccsdk/env/ro-install .libs/libpopt.a /home/rob/projects/gccsdk/env/lib/libpopt.a
+libtool: install: chmod 644 /home/rob/projects/gccsdk/env/lib/libpopt.a
+libtool: install: /home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-ranlib /home/rob/projects/gccsdk/env/lib/libpopt.a
+make[3]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src'
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src'
+Making install in po
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/po'
+if test "popt" = "gettext-tools"; then \
+  /home/rob/projects/gccsdk/env/mkdir -p /home/rob/projects/gccsdk/env/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /home/rob/projects/gccsdk/env/ro-install -m 644 ./$file \
+		    /home/rob/projects/gccsdk/env/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /home/rob/projects/gccsdk/env/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/po'
+Making install in tests
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/tests'
+make[3]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/tests'
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/tests'
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+make[3]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /home/rob/projects/gccsdk/env/mkdir -p '/home/rob/projects/gccsdk/env/lib/pkgconfig'
+ /home/rob/projects/gccsdk/env/mkdir -p '/home/rob/projects/gccsdk/env/share/man/man3'
+ /home/rob/projects/gccsdk/env/ro-install -m 644 popt.3 '/home/rob/projects/gccsdk/env/share/man/man3'
+ /home/rob/projects/gccsdk/env/ro-install -m 644 popt.pc '/home/rob/projects/gccsdk/env/lib/pkgconfig'
+make[3]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+make[1]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+RO libpack: Running install target: install
+make  install-recursive
+make[1]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+Making install in src
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src'
+make[3]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src'
+ /home/rob/projects/gccsdk/env/mkdir -p '/home/rob/projects/gccsdk/env/lib'
+ /home/rob/projects/gccsdk/env/mkdir -p '/home/rob/projects/gccsdk/env/include'
+RISC OS Cross installer mkdir:  -p /home/rob/projects/gccsdk/build/popt/package/include
+RISC OS Cross installer mkdir:  -p /home/rob/projects/gccsdk/build/popt/package/lib
+ /bin/sh ../libtool   --mode=install /home/rob/projects/gccsdk/env/ro-install   libpopt.la '/home/rob/projects/gccsdk/env/lib'
+ /home/rob/projects/gccsdk/env/ro-install -m 644 popt.h '/home/rob/projects/gccsdk/env/include'
+libtool: install: /home/rob/projects/gccsdk/env/ro-install .libs/libpopt.lai /home/rob/projects/gccsdk/env/lib/libpopt.la
+RISC OS Cross installer:  popt.h /home/rob/projects/gccsdk/build/popt/package/include
+RISC OS Cross installer:  .libs/libpopt.lai /home/rob/projects/gccsdk/build/popt/package/lib/libpopt.la
+libtool: install: /home/rob/projects/gccsdk/env/ro-install .libs/libpopt.a /home/rob/projects/gccsdk/env/lib/libpopt.a
+RISC OS Cross installer:  .libs/libpopt.a-static /home/rob/projects/gccsdk/build/popt/package/lib/libpopt.a
+libtool: install: chmod 644 /home/rob/projects/gccsdk/env/lib/libpopt.a
+libtool: install: /home/rob/projects/gccsdk/cross/bin/arm-unknown-riscos-ranlib /home/rob/projects/gccsdk/env/lib/libpopt.a
+make[3]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src'
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/src'
+Making install in po
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/po'
+if test "popt" = "gettext-tools"; then \
+  /home/rob/projects/gccsdk/env/mkdir -p /home/rob/projects/gccsdk/env/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /home/rob/projects/gccsdk/env/ro-install -m 644 ./$file \
+		    /home/rob/projects/gccsdk/env/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /home/rob/projects/gccsdk/env/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/po'
+Making install in tests
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/tests'
+make[3]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/tests'
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release/tests'
+make[2]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+make[3]: Entering directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /home/rob/projects/gccsdk/env/mkdir -p '/home/rob/projects/gccsdk/env/lib/pkgconfig'
+ /home/rob/projects/gccsdk/env/mkdir -p '/home/rob/projects/gccsdk/env/share/man/man3'
+RISC OS Cross installer mkdir:  -p /home/rob/projects/gccsdk/build/popt/package/lib/pkgconfig
+RISC OS Cross installer mkdir:  -p /home/rob/projects/gccsdk/build/popt/package/share/man/man3
+ /home/rob/projects/gccsdk/env/ro-install -m 644 popt.pc '/home/rob/projects/gccsdk/env/lib/pkgconfig'
+ /home/rob/projects/gccsdk/env/ro-install -m 644 popt.3 '/home/rob/projects/gccsdk/env/share/man/man3'
+RISC OS Cross installer:  popt.pc /home/rob/projects/gccsdk/build/popt/package/lib/pkgconfig
+1
+Calling `psselect -q -p2 /tmp/groff-ps-UVwKTP /tmp/groff-ps-6qhUoU
+' returned status 32512
+Calling `echo showpage | gs -q -dBATCH -dSAFER -dDEVICEHEIGHTPOINTS=792 -dDEVICEWIDTHPOINTS=750 -dFIXEDMEDIA=true -sDEVICE=pnmraw -r100 -dTextAlphaBits=4 -dGraphicsAlphaBits=4  -sOutputFile=/tmp/groff-page-BFQk9R /tmp/groff-ps-6qhUoU -
+' returned status 32512
+Calling `pnmcut 150 666 601 135 < /tmp/groff-page-BFQk9R | pnmcrop -quiet | pnmtopng -background rgb:f/f/f -transparent rgb:f/f/f > grohtml-9765301.png
+' returned status 32512
+Calling `psselect -q -p4 /tmp/groff-ps-UVwKTP /tmp/groff-ps-6qhUoU
+' returned status 32512
+Calling `echo showpage | gs -q -dBATCH -dSAFER -dDEVICEHEIGHTPOINTS=792 -dDEVICEWIDTHPOINTS=750 -dFIXEDMEDIA=true -sDEVICE=pnmraw -r100 -dTextAlphaBits=4 -dGraphicsAlphaBits=4  -sOutputFile=/tmp/groff-page-BFQk9R /tmp/groff-ps-6qhUoU -
+' returned status 32512
+Calling `pnmcut 150 832 601 53 < /tmp/groff-page-BFQk9R | pnmcrop -quiet | pnmtopng -background rgb:f/f/f -transparent rgb:f/f/f > grohtml-9765302.png
+' returned status 32512
+pre-grohtml: cannot unlink `/tmp/groff-page-BFQk9R': No such file or directory
+pre-grohtml: cannot unlink `/tmp/groff-ps-6qhUoU': No such file or directory
+make[3]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+make[2]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+make[1]: Leaving directory '/home/rob/projects/gccsdk/build/popt/popt-popt-1.18-release'
+'README' -> '/home/rob/projects/gccsdk/build/popt/package/doc/popt_1.18-release-1/README'
+'CHANGES' -> '/home/rob/projects/gccsdk/build/popt/package/doc/popt_1.18-release-1/CHANGES'
+'COPYING' -> '/home/rob/projects/gccsdk/build/popt/package/doc/popt_1.18-release-1/COPYING'
+./lib/pkgconfig/popt.pc
+./lib/libpopt.la
+./lib/libpopt.a
+./popt.h
+./include/popt.h
+./man/popt.3,faf
+  adding: lib/pkgconfig/popt.pc (deflated 30%)
+  adding: lib/libpopt.la (deflated 46%)
+  adding: lib/libpopt.a (deflated 58%)
+  adding: include/h/popt (deflated 73%)
+  adding: doc/popt_1.18-release-1/README (deflated 40%)
+  adding: doc/popt_1.18-release-1/CHANGES (deflated 60%)
+  adding: doc/popt_1.18-release-1/COPYING (deflated 44%)
+  adding: man/popt.3,faf (deflated 73%)
+  adding: h/popt (deflated 73%)
+Autobuilder: Not Packaging
+Autobuilder: Package stage completed

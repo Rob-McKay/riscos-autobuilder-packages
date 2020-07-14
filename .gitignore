@@ -50,3 +50,53 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# MAC OS extra crap files
+.DS_Store
+._.DS_Store
+
+#svn repo details
+.svn/*
+
+# build scripts
+
+#Autobuilder files stored under SVN
+add-riscpkg
+build
+build-index
+build-libs
+build-program
+build-stats
+build-website
+dpkg_get_packageentry.pl
+fetch-depends
+fetch-program
+ro-libpack
+setvars-template
+upload
+
+# built artefacts
+autobuilder_libraries
+autobuilder_packages
+
+# package script folders - ignore the default ones, exclude from ignore new ones we add
+browser/
+cli/
+develop/
+emulation/
+filesystem/
+fonts/
+games/
+graphics/
+libraries/
+media/
+meta/
+network/
+office/
+support/
+system/
+terminal/
+toolsrc/
+
+!libraries/popt/*
+!libraries/libsmb2/*

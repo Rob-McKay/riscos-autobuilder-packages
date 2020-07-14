@@ -1,0 +1,13 @@
+AB_URL=https://github.com/rpm-software-management/popt/archive/popt-1.18-release.zip
+
+AB_INSTALL=yes
+
+ab_make() {
+  autoreconf -vi
+  $GCCSDK_INSTALL_ENV/ro-config --disable-shared --enable-static --disable-largefile --disable-nls --disable-rpath
+
+  $AB_MAKE
+  mkdir -p $D/lib
+  cp -av $S/src/.libs/libpopt.a $D/lib
+  cp -av $S/src/popt.h $D
+}
