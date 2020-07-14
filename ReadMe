@@ -1,0 +1,7 @@
+This repo is where I put my work on porting packages to RISC-OS.
+
+I use the files here along with those in the riscos.info SVN repository to cross compile on CentOS 8 targeting Risc-OS 5 running on a Raspberry-PI.
+
+See http://www.riscos.info/index.php/Autobuilder_Development_and_Packaging for more details of the autobuild and packaging system.
+
+Currently I'm looking at using libsmb2 as a backend for !OmniClient once I've got the library and examples working under Risc-OS 5
