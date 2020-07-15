@@ -4,22 +4,41 @@ AB_INSTALL=yes
 
 ab_make() {
   cmake -DCMAKE_TOOLCHAIN_FILE=$H/toolchain-riscos.cmake \
-        -DRISCOS=1 \
         -DBUILD_SHARED_LIBS=OFF \
-        -DTHREADSAFE=OFF \
-        -DBUILD_CLAR=OFF \
         -DCMAKE_INSTALL_PREFIX=$GCCSDK_INSTALL_ENV \
         -DENABLE_EXAMPLES=ON \
         .
+
   $AB_MAKE
+
+  echo "Writing libsmb2 files to $D"
+
   mkdir -p $D/lib
-  cp -av $S/libsmb2.a $D/lib
-  cp -av $S/include $D
+  mkdir -p $D/include/smb2
+  cp -av $S/lib/libsmb2.a $D/lib
+  cp -av $S/include/smb2 $D/include
+  for f in smb2-cat-async \
+            smb2-cat-sync \
+            smb2-ftruncate-sync \
+            smb2-ls-async \
+            smb2-ls-sync \
+            smb2-put-async \
+            smb2-put-sync \
+            smb2-raw-stat-async \
+            smb2-raw-getsd-async \
+            smb2-share-enum \
+            smb2-stat-sync \
+            smb2-truncate-sync
+  do
+    mv "$S/examples/$f" "$S/examples/$f$AB_EXEEXT"
+  done
+
+#  cp -av $S/examples/smb2-cat-async $D
 }
 
 ab_package() {
   ab_create_command_app smb2examples Apps/Network
-  ab_add_commands $S/src/*$AB_EXEEXT
+  ab_add_commands $S/examples/*$AB_EXEEXT
 
   cp -av $S/README $A
   cp -av $S/COPYING $A

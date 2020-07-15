@@ -99,6 +99,10 @@ system/
 terminal/
 toolsrc/
 
+last-zips
+
 !/libraries/popt/*
+libraries/popt/last-success
+
 !/libraries/libsmb2/*
 libraries/libsmb2/last-failure
