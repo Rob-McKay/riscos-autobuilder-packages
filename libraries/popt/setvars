@@ -11,3 +11,17 @@ ab_make() {
   cp -av $S/src/.libs/libpopt.a $D/lib
   cp -av $S/src/popt.h $D
 }
+
+ab_package() {
+  ab_create_app popt Apps/Library popt-dev
+
+  cp -av $S/README $S/CHANGES $A
+  cp -av $S/COPYING $A
+  #cp -av $S/NEWS $S/ChangeLog $A
+
+  mkdir -p $A/../lib
+  cp -av $S/src/.libs/libpopt.a $A/../lib/libpopt.a,ffd
+
+  mkdir -p $A/../include
+  cp -av $S/src/popt.h $A/../include
+}

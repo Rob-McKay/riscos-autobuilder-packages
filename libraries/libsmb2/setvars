@@ -37,18 +37,21 @@ ab_make() {
 }
 
 ab_package() {
-  ab_create_command_app smb2examples Apps/Network
+  ab_create_command_app smb2examples Apps/Development
   ab_add_commands $S/examples/*$AB_EXEEXT
 
   cp -av $S/README $A
   cp -av $S/COPYING $A
   #cp -av $S/NEWS $S/ChangeLog $A
 
-  mkdir -p $A/lib
-  cp -av $S/lib/*.a $A/lib
+  mkdir -p $A/../lib
+  cp -av $S/lib/libsmb2.a $A/../lib/libsmb2.a,ffd
 
-  mkdir -p $A/include
-  cp -av $S/include/smb2/smb* $A/include
+  mkdir -p $A/../include/smb2
+  cp -av $S/include/smb2/* $A/../include/smb2
+
+  mkdir -p $A/../examples
+  cp -av $S/examples/*.c $S/examples/Makefile $S/examples/*.txt $A/../examples
 
   $AB_HOME/add-riscpkg -unixlib
 }
